@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Weather</title>
+    <link rel="stylesheet" href="We.css">
+</head>
+
+<body onload="getData()">
+    <div class="box">
+        <input type="text" onchange="getData()" id="search" value="patna">
+        <div>
+            <h1 id="temp">14<sup>o</sup></h1>
+            <p style="text-align: center; font-size: 25px; color: antiquewhite;">Clecius:-</p>
+            <p class="data">Wind speed:- <span id="ws">21</span></p>
+            <p class="data">Humidity :- <span id="hmdty">51</span></p>
+        </div>
+        <div style="display: flex;justify-content: center;">
+            <img width="170px" src="images.g.png" alt="">
+        </div>
+    </div>
+    <script src="We.js"></script>
+</body>
+
+
+
+</html>
